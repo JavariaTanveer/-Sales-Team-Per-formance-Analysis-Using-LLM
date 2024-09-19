@@ -62,7 +62,7 @@ async def sales_rep_feedback(rep_id: str):
 
     return {"sales_rep_id": rep_id, "feedback": feedback}
 
-API Endpoints
+**API Endpoints**
 1. Upload Sales Data
 Endpoint: /upload-sales-data/
 Method: POST
