@@ -1,0 +1,27 @@
+1. Upload Sales Data (/upload-sales-data/) Endpoint
+Endpoint: /api/upload_sales_data
+Method: POST
+Description: Upload sales data in either CSV or JSON format for analysis. This will be used by the other endpoints to generate performance insights.
+Parameters:
+file: The sales data file (CSV or JSON).
+
+2. Sales Rep Feedback (/sales-rep-feedback/{rep_id}) Endpoint
+Postman Configuration:
+Endpoint: /api/rep_performance
+Method: GET
+Parameters:
+rep_id: Unique identifier for the sales representative (string or number depending on your data).
+Description: Returns detailed performance analysis and feedback for the specified sales representative based on historical sales data.
+
+3. Team Performance (/team-performance) Endpoint
+Endpoint: /api/team_performance
+Method: GET
+Description: Provides a summary of the overall sales team’s performance, including cumulative sales, performance against targets, and other key metrics.
+
+4. Performance Trends (/performance-trends) Endpoint
+Postman Configuration:
+Endpoint: /api/performance_trends
+Method: GET
+Parameters:
+time_period: Specifies the time period for the trend analysis (e.g., monthly, quarterly).
+Description: Analyzes sales data over the specified time period and provides trends and forecasts based on historical performance.
