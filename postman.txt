@@ -1,0 +1,41 @@
+1. Upload Sales Data (/upload-sales-data/) Endpoint
+Postman Configuration:
+Open Postman and click New → Request.
+Name the request (e.g., Upload Sales Data) and choose a Collection to save it.
+In the Request setup:
+Method: Select POST.
+URL: Enter http://127.0.0.1:8000/upload-sales-data/.
+Body tab:
+Select form-data.
+In the first field:
+Under Key, type file.
+In the dropdown next to file, choose File.
+Click Select Files and upload a CSV or JSON file that contains the sales data.
+Click Send.
+
+2. Sales Rep Feedback (/sales-rep-feedback/{rep_id}) Endpoint
+Postman Configuration:
+Create a new request in Postman by clicking New → Request.
+Name the request Sales Rep Feedback.
+In the Request setup:
+Method: Select GET.
+URL: Enter http://127.0.0.1:8000/sales-rep-feedback/{rep_id}, replacing {rep_id} with an actual ID from your sales data (e.g., http://127.0.0.1:8000/sales-rep-feedback/123).
+Click Send.
+
+3. Team Performance (/team-performance) Endpoint
+Postman Configuration:
+Create a new request in Postman by clicking New → Request.
+Name the request Team Performance.
+In the Request setup:
+Method: Select GET.
+URL: Enter http://127.0.0.1:8000/team-performance.
+Click Send.
+
+4. Performance Trends (/performance-trends) Endpoint
+Postman Configuration:
+Create a new request in Postman by clicking New → Request.
+Name the request Performance Trends.
+In the Request setup:
+Method: Select GET.
+URL: Enter http://127.0.0.1:8000/performance-trends.
+Click Send.
