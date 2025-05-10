@@ -17,14 +17,17 @@ Sales Trends and Forecasting: Analyzes sales trends over specified time periods 
 You need an API key from Hugging Face to generate insights using their LLMs. Get your API key from Hugging Face.
 
 **API Endpoints**
+
 **1. Upload Sales Data**
 Endpoint: /upload-sales-data/
 Method: POST
 Description: Upload CSV or JSON sales data.
+
 **2. Sales Representative Feedback**
 Endpoint: /sales-rep-feedback/{rep_id}
 Method: GET
 Description: Get performance feedback for a specific sales representative.
+
 **3. Team Performance**
 Endpoint: /team-performance
 Method: GET
