@@ -71,6 +71,8 @@ A backend system that leverages a Large Language Model (LLM) via Hugging Face AP
 * Generate automated team reports
 * Forecast quarterly sales with AI interpretation
 
+![Sales Team Performance Analysis Using LLM](https://github.com/user-attachments/assets/154492ec-7b85-41fd-a846-a154d58a5d0f)
+
 ---
 # -Sales-Team-Per-formance-Analysis-Using-LLM
 Backend Development Exercise: Sales Team Performance Analysis Using LLM
